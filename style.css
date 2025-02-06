@@ -1,0 +1,93 @@
+body{
+    background-color: #0f172a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #020617;
+    color: white;
+    border-radius: 5px;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.container-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+#input-ano{
+    border-radius: 5px;
+    padding-right: 45px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+}
+
+.container-radios{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+.container-radios p{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    padding-top: 7px;
+}
+
+#radio-m, #radio-f{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.container-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.btn{
+    border-radius: 5px;
+    border: none;
+    background-color: #b91c1c;
+    color: white;
+    width: 265px;
+    height: 35px; 
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: #020617;
+}
+
+.container-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-right: 10px;
+
+}
